@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="The Portfolio of Mahdi Farang">
+<meta name="keywords" content="Mahdi,Farang,Mahdi Farang,Portfolio,Web Design,Design">
+<meta name="author" content="Mahdi Farang">
+
+<link href="CSS/main.css" rel="stylesheet" type="text/css" />
+<link href="CSS/normalize.css" rel="stylesheet" type="text/css" />
+<link href="CSS/framework.css" rel="stylesheet" type="text/css" />
+<link href="Font/typicons.font-2.0.3/font/typicons.min.css" rel="stylesheet" type="text/css" />
+
+<script src="JS/jquery-2.1.0.min.js"></script>
+<script src="JS/modernizr.min.js"></script>
+
+
+<title>The Portfolio of Mahdi Farang</title>
+</head>
+
+<body>
+
+  <div class="container">
+  
+    <div class="column three MyPicSocial">
+      <div class="row">
+        <div class="column two" style="text-align:center">
+          <img class="styled" src="Pics/01mypic.png" />
+          <br />
+          <br />
+          <a href="https://twitter.com/MahdiFarang" target="_blank" class="SocialLink"><!-- Twitter -->
+          <span class="typcn typcn-social-twitter-circular SocialButton Twitter"></span>
+          </a>
+          <a href="https://dribbble.com/MahdiFarang" target="_blank" class="SocialLink"><!-- Dribbble -->
+          <span class="typcn typcn-social-dribbble SocialButton Dribbble"></span>
+          </a>
+          <a href="http://www.pinterest.com/mahdifarang/" target="_blank" class="SocialLink"><!-- Pinterest -->
+          <span class="typcn typcn-social-pinterest-circular SocialButton Pinterest"></span>
+          </a>
+        </div>
+        <div class="column one">
+          <img src="Pics/02mygutter.png" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="column six MyAbout txt">
+      <div class="row">
+        <div class="column five">
+          <h4>Hi</h4>
+          <p>I'm Mahdi Farang, freelance designer from Tehran, Iran. simplicity & briefness are my
+              concern in design. I like designing web and words(=Typography). I spend some time on photography and graphic too.
+               Have a look around and don't hesitate to contact me; 
+          </p>
+           <span class="typcn typcn-mail ContactsIcon"></span><span>&nbsp; mahdi.farang[at]hotmail.com &nbsp;&nbsp;</span>
+           <span class="typcn typcn-device-phone ContactsIcon"></span><span>+98 912 705 2181</span>
+        </div>
+        <div class="column one">
+          <br />
+          <img src="Pics/03mygutter.png" />
+        </div>
+      </div>
+    </div>
+    
+    <div class="column three MyPortfolio">
+      <h3 style="font-family:klima">Would You <br/> Like to See My <br/> Portfolio?</h3>
+      &nbsp;--&nbsp;
+      <a id="MyTooltipa" href="http://mahdifarang.cloudsite.ir/portfolio/" target="_blank" 
+      class="SocialLink" data-original-title="click !!" data-toggle="tooltip" data-placement="left">
+        <span class="typcn typcn-thumbs-up likesIcon"></span>
+      </a>
+      &nbsp;&nbsp;OR&nbsp;
+      <a id="MyTooltipb" href="" target="" 
+      class="SocialLink" data-original-title="Maybe later ?!" data-toggle="tooltip" data-placement="right">
+        <span class="typcn typcn-thumbs-down dislikesIcon"></span>
+      </a>
+      &nbsp;--&nbsp;&nbsp;
+    </div>
+  </div>
+  
+  <footer class="styled">
+    <section>
+      <div class="container">
+        <div class="column twelve">
+          <p class="txtf">Built by Mahdi Farang with love using 
+          <a href="http://www.heartinternet.co.uk/sculpt" target="_blank">Sculpt</a> and <a href="http://klima.io/" target="_blank">Klima font</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+ 
+ <script src="JS/jquery-2.1.0.min.js"></script>
+ <script src="JS/main.js"></script>
+ <script type="text/javascript">
+$(document).ready(function() {
+        $('#MyTooltipa').tooltip();
+		$('#MyTooltipb').tooltip();
+		$(".heartIcon").hover(function(){
+        $("#AskQ").toggleClass("answershow", 1000, "easeOutSine");
+          });
+        });
+  </script>
+
+</body>
+</html>
